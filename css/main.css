@@ -1,0 +1,199 @@
+body{
+  /*reset*/
+  margin: 0;
+  padding: 0;
+}
+.lu-menu{
+  /*Alinear los lu del menú principal a la derecha */
+  text-align: right;
+}
+/*Alinear los li del menú principal de forma horizontal */
+.lista-menu{
+  display: inline-block;;
+  padding-left: 40px;
+}
+.menu-link{
+  /*Colocar color y estilo a los links del menú*/
+  color: #737c93;
+  text-decoration: none;
+  font-size: 10px;
+}
+a.menu-link:hover{
+  /*estilo para cuando se coloca el cursor sobre el link del menú*/
+  color: #876ac1;
+}
+.img-logo{
+  /*estilo para definir el tamaño en px de la imágen*/
+  display: inline;
+  width: 117px;
+}
+.menu-nav{
+  /*ajustar el menú en forma horizonal*/
+  display: inline;
+}
+.header-menu{
+  /*ajustar la imágen con el menú*/
+  display: flex;;
+}
+.img-padding{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.seccion-principal{
+/*Panel de la sección principal*/
+display: block;
+text-align: center;
+}
+.titulo-seccion-principal{
+/*Titulo h1 de la seccion principal*/
+color: #737c93;
+font-size: 30px;
+text-align: center;
+}
+.subTitulo-seccion-principal{
+  /*ajustar el h2 de la sección principal*/
+  color: #989faf;
+  font-size: 10px;
+  text-align: center;
+}
+.header-seccion-principal{
+  /*dar espacio entre el menú y el ingreso de la sección principal*/
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.formulario-ppal{
+  /*se mantiene alineado los controles del formulario de registro*/
+  display: inline-flex;
+  text-align: center;
+}
+.Texto-Registro{
+  /*estilo para dar forma al campo de texto de registro de email*/
+  background-color: #fff;
+  border: 2px solid #e4e9ee;
+  border-radius: 6px 0 0 6px;
+  border-right: 0;
+  font-size: 10px;
+  height: 26px;
+  vertical-align: top;
+  width: 274px;
+}
+.btn-Registro{
+  /*Boton de ingresar en la sección principal*/
+  text-decoration: none;
+  background-color: #8e74c5;
+  padding: 4px 34px;
+  color: #fff;
+}
+a.btn-Registro:hover{
+  background-color: #a98fda;
+}
+.humano-Principal{
+  padding-top: 50px;
+  margin: -10px;
+}
+.humano-Derecha{
+  margin-left: -100px;
+  margin-bottom: 20px;
+}
+.humano-Izquierda{
+  margin-right: -113px;
+  margin-bottom: 40px;
+}
+.lu-footer{
+  /*ajustar el footer*/
+  text-align: center;
+}
+.lista-footer{
+  display: inline-block;;
+  padding-left: 40px;
+}
+.footer-link{
+  /*Colocar color y estilo a los links del footer*/
+  color: #737c93;
+  text-decoration: none;
+  font-size: 10px;
+}
+a.footer-link:hover{
+  /*estilo para cuando se coloca el cursor sobre el link del footer*/
+  color: #876ac1;
+}
+.footer-estilo{
+  background: #fff;
+  padding: 10px;
+}
+.casos-exito{
+  /*se van a dar los estilos para la sección de casos de exito*/
+  margin: 0;
+  background: #8596B2;
+  text-align: center;
+  padding-bottom: 50px;
+  margin-bottom: -15px;
+  display: block;
+}
+.subTitulo-casos-exito{
+  /*ajustar el h2 de la sección principal*/
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.article-casos{
+  /*padding para los article*/
+  padding: 60px;
+}
+.btn-Casos-Exito{
+  /*Boton de ingresar en la sección principal*/
+  text-decoration: none;
+  background-color: #8e74c5;
+  padding: 50px 50px 50px 50px;
+  width: 33.33%;
+  color: #fff;
+}
+.gente-learn{
+  /*clase gente */
+  margin: 0;
+  background: #91A3C4;
+  display: block;
+  text-align: center;
+}
+.subTitulo-gente{
+  /*ajustar el h2 de la sección principal*/
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+/*Colores de las imagenes de la sección gente*/
+.seccion-imagen-gente{
+  display: inline-flex;;
+  background-color: #9BABC7;
+  margin-bottom: 35px;
+}
+.p-gente{
+  color: #fff;
+}
+.img-gente{
+  width: 155px;
+  height: 111px;
+  border-bottom: 5px solid;
+}
+.img1-color{
+  border-color: #0000ff;
+}
+.img2-color{
+  border-color: #ff9900;
+}
+.img3-color{
+  border-color: #cc0099;
+}
+.img4-color{
+  border-color: #00e600;
+}
+.padding-gente{
+  padding: 5px;
+
+  width: 100%;
+  height: 35px;
+}
